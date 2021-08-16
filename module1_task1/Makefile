@@ -1,6 +1,6 @@
-Build:
+build:
 	hugo new site dist
-Clean:
+clean:
 	rm -rf ./dist/
-Post:
+post:
 	hugo new posts/$(POST_NAME)
