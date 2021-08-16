@@ -1,5 +1,6 @@
 build:
 	hugo new site dist
+	touch ./dist/index.html
 clean:
 	rm -rf ./dist/
 post:
